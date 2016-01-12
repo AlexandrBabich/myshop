@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/BaskedController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/FeedbackController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/SendMailController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Menu.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Models/Message.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/mail.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/thema/js/style.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/_common/__form.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/_common/_form.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/blog/index.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/components/cart.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/components/home.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/components/nav.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/emails/feedback.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/emails/order.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/feedback/create.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/index.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/pages/about.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/pages/massages/_item.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/pages/massages/edit.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/pages/massages/index.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/pages/product.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/pages/register/register.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/pages/register/registerForm.blade.php" charset="UTF-8" />
+  </component>
+</project>
