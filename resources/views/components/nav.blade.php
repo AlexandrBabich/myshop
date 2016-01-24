@@ -73,5 +73,15 @@
                 <button class="btn btn-primary" type="submit">Login</button>
             </div>
         </form>
+
+
+        <div class="content">
+         
+            <div class="col-md-12 text-center">
+                <p><a href="{!! route('socialite.auth', 'github') !!}">Github</a></p>
+                <p><a href="{!! route('socialite.auth', 'google') !!}">Google</a></p>
+                <p><a href="{!! route('socialite.auth', 'facebook') !!}">Facebook</a></p>
+            </div>
+        </div>
     </div>
 </div>

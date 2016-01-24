@@ -15,7 +15,8 @@
         "guzzlehttp/guzzle": "~4.0",
         "fedeisas/laravel-mail-css-inliner": "@dev",
         "tom-lingham/searchy" : "2.*",
-        "mews/captcha": "^2.1"
+        "mews/captcha": "^2.1",
+        "laravel/socialite": "~2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

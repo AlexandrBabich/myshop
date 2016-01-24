@@ -1,5 +1,17 @@
 ## Changelog
 
+### 5.0.11
+- Bugfix: Had to make the middleware additon backwards compatable
+- Docs: Added doc updates
+
+### 5.0.10
+- Bugfix: L5.2 changed the way url() works so added url('/') instead
+- Added: Support for middleware additions to the Admin routes via the administrator config
+- Testfix: Fixed failing tests
+
+### 5.0.9
+- Bugfx: Fix for datetimepicker partially being covered by top menu  
+
 ### 5.0.8
 - Bugfix: Rename Bool class to Boolean to fix PHP 7 
 - Bugfix: added missing custom attribute field

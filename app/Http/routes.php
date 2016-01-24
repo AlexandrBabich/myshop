@@ -88,6 +88,21 @@ get('mail', function(){
 
 
 
+Route::get(
+    '/socialite/{provider}',
+    [
+        'as' => 'socialite.auth',
+        function ( $provider ) {
+            return \Socialite::driver( $provider )->redirect();
+        }
+    ]
+);
+
+Route::get('/auth/{provider}/callback', function ($provider) {
+    $user = \Socialite::driver($provider)->user();
+    dd($user);
+});
+
 Route::get('home', ['uses'=>'HomeController@index', 'as'=>'home']);
 Route::get('message/{id}/edit', ['uses'=>'HomeController@edit', 'as' => 'message.edit'])->where(['id' => '[0-9]+']);
 Route::post('home', ['uses'=>'HomeController@store', 'as'=>'store']);
