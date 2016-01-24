@@ -26,7 +26,7 @@ class Products extends Model
     public function getCategoryProduct($id){
         return $this->published()
             ->category($id)
-            ->get();
+            ->paginate(9);
     }
 
     public function getBascedProducts($productId){

@@ -76,7 +76,7 @@
 
 
         <div class="content">
-         
+
             <div class="col-md-12 text-center">
                 <p><a href="{!! route('socialite.auth', 'github') !!}">Github</a></p>
                 <p><a href="{!! route('socialite.auth', 'google') !!}">Google</a></p>
