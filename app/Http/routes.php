@@ -86,7 +86,7 @@ get('mail', function(){
 
 
 
-
+/*
 Route::get( '/auth/{provider}', [
 'as' => 'socialite.auth',
 function ( $provider ) {
@@ -100,7 +100,9 @@ Route::get( '/auth/{provider}/callback', [
         dd( $user );
     }
 ] );
-
+*/
+Route::get('auth/{provider}', 'Auth\AuthController@redirectToProvider');
+Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');
 
 
 
@@ -123,7 +125,7 @@ Route::post('register/store', ['uses'=>'RegisterController@store', 'as'=>'regist
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
-Route::get('auth/logout', 'Auth\AuthController@getLogout');
+Route::any('auth/logout', 'Auth\AuthController@getLogout');
 
 // Registration routes...
 

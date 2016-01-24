@@ -81,20 +81,45 @@ class AuthController extends MainController
      *
      * @return Response
      */
+
+
+    public function redirectToProvider($provider)
+    {
+        return Socialite::driver($provider)->redirect();
+    }
+
+    public function handleProviderCallback($provider)
+    {
+        try {
+            $user = Socialite::driver($provider)->user();
+        } catch (Exception $e) {
+            return Redirect::to('auth/{provider}');
+        }
+
+        $authUser = $this->findOrCreateUser($user);
+
+        Auth::diner()->login($authUser, true);
+
+        return redirect()->route('dinerhome');
+    }
+
+    /*
     public function redirectToProvider()
     {
         return Socialite::driver('github')->redirect();
     }
-
+*/
     /**
      * Obtain the user information from GitHub.
      *
      * @return Response
      */
+    /*
     public function handleProviderCallback()
     {
         $user = Socialite::driver('github')->user();
 
         // $user->token;
     }
+    */
 }
