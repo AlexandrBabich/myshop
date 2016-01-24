@@ -60,6 +60,7 @@ class AuthController extends MainController
      */
     protected function create(array $data)
     {
+
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
@@ -91,8 +92,8 @@ class AuthController extends MainController
     public function handleProviderCallback($provider)
     {
         try {
-            $user = Socialite::driver($provider)->user();
-        } catch (Exception $e) {
+            $user = \Socialite::driver($provider)->user();
+        } catch (\Exception $e) {
             return Redirect::to('auth/{provider}');
         }
 
@@ -100,7 +101,7 @@ class AuthController extends MainController
 
         Auth::diner()->login($authUser, true);
 
-        return redirect()->route('dinerhome');
+        return redirect()->route('/');
     }
 
     /*
