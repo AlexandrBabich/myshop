@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 
 
 use App\User;
+use Laravel\Socialite\Facades\Socialite;
 use Validator;
 use App\Http\Controllers\MainController;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
