@@ -74,14 +74,5 @@
             </div>
         </form>
 
-
-        <div class="content">
-
-            <div class="col-md-12 text-center">
-                <p><a href="/auth/github">Github</a></p>
-                <p><a href="/auth/google">Google</a></p>
-                <p><a href="/auth/facebook">Facebook</a></p>
-            </div>
-        </div>
     </div>
 </div>
