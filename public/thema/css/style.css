@@ -123,7 +123,7 @@ body{
     position: absolute;
     bottom: 30px;
     padding: 5px 5px;
-    background-color: #6ECACB;
+    background-color: rgba(131, 245, 247, 0.43);
     border-radius: 0px 20px 0px 20px;
     margin: -20px -14px;
 }
@@ -162,7 +162,7 @@ body{
     bottom: 30px;
     right: 29px;
     padding: 5px 15px;
-    background-color: #6ECACB;
+    background-color: rgba(131, 245, 247, 0.43);
     border-radius: 20px 0px 20px 0px;
     margin: -20px -14px;
 }
@@ -185,7 +185,7 @@ body{
 .action_block{
     position: absolute;
     padding: 3px 10px;
-    background-color: rgba(255, 0, 0, 0.63);
+    background-color: rgba(229, 74, 9, 0.58);
     border-radius: 0px 20px 0px 20px;
     bottom: 42px;
     right: 15px;
@@ -203,11 +203,11 @@ body{
 }
 
 .action:hover {
-    box-shadow: 0 0 30px 5px #D10000;
+    box-shadow: 0 0 30px 5px #E54A09;
 }
 
 .action {
-    box-shadow: 0 1px 4px rgb(231, 12, 12), -23px 0 20px -23px rgb(253, 4, 4), 23px 0 20px -23px rgb(236, 14, 14), 0 0 40px rgba(0, 0, 0, 1.1) inset;
+    box-shadow: 0 1px 4px rgb(231, 105, 12), -23px 0 20px -23px rgb(253, 121, 4), 23px 0 20px -23px rgb(236, 108, 14), 0 0 40px rgba(0, 0, 0, 1.1) inset;
     border-radius: 0 0px 20px 20px; !important;
 }
 
@@ -262,6 +262,11 @@ body{
 
 .logotip_block{
     margin: 16px auto;
+    max-width: 160px;
+    max-height: 43px;
+}
+
+.logotip img{
     max-width: 160px;
     max-height: 43px;
 }
