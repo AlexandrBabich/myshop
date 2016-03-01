@@ -27,7 +27,7 @@
                                 <div class="product_block1 @if($item->action) action @endif">
                                     <div class="category_title"><a href="/product/{!! $item->id !!}">{!! $item->title !!}</a></div>
                                     @if($item->image)
-                                        <div class="category_image"><a href="/product/{!! $item->id !!}"><img height="80px" width="100px" src="/uploads/products/small/{{$item->image}}" /></a></div>
+                                        <div class="category_image"><a href="/product/{!! $item->id !!}"><img style="max-height:80px; max-width:100px;" src="/uploads/products/small/{{$item->image}}" /></a></div>
                                     @endif
                                     @if($item->newPrice)
                                         <div class="old_prise_block"><a class="text_none">{!!$item->price!!} грн.</a></div>
